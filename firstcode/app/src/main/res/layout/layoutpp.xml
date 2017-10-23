@@ -30,7 +30,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <EditText
-        android:id="@+id/Enter_Name_layoutpp"
+        android:id="@+id/Enter_Email_layoutpp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="enter email"
@@ -39,20 +39,20 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <EditText
-        android:id="@+id/Password_layoutpp"
+        android:id="@+id/Enter_Password_layoutpp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:layout_below="@+id/Enter_Name_layoutpp"
+        android:layout_below="@+id/Enter_Email_layoutpp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         />
     <EditText
-        android:id="@+id/Cell_Number_layoutpp"
+        android:id="@+id/Enter_Cell_Number_layoutpp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Cell Number"
-        android:layout_below="@+id/Password_layoutpp"
+        android:layout_below="@+id/Enter_Password_layoutpp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -60,7 +60,7 @@
         android:id="@+id/button_layoutpp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Cell_Number_layoutpp"
+        android:layout_below="@+id/Enter_Cell_Number_layoutpp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp"
         android:text="Button" />

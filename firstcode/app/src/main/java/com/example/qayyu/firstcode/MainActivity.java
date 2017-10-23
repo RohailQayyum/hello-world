@@ -17,30 +17,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layoutpp);
 
-        et = (EditText) findViewById(R.id.et1);
+        et = (EditText) findViewById(R.id.First_Name_layoutpp);
+        et = (EditText) findViewById(R.id.Last_Name_layoutpp);
+        et = (EditText) findViewById(R.id.Father_Name_layoutpp);
+        et = (EditText) findViewById(R.id.Enter_Email_layoutpp);
+        et = (EditText) findViewById(R.id.Enter_Password_layoutpp);
+        et = (EditText) findViewById(R.id.Enter_Cell_Number_layoutpp);
         bt = (Button) findViewById(R.id.button);
         bt.setOnClickListener(this);
 
-        et = (EditText) findViewById(R.id.et2);
-        bt = (Button) findViewById(R.id.button);
-        bt.setOnClickListener(this);
 
-        et = (EditText) findViewById(R.id.et3);
-        bt = (Button) findViewById(R.id.button);
-        bt.setOnClickListener(this);
-
-        et = (EditText) findViewById(R.id.et4);
-        bt = (Button) findViewById(R.id.button);
-        bt.setOnClickListener(this);
-
-        et = (EditText) findViewById(R.id.et5);
-        bt = (Button) findViewById(R.id.button);
-        bt.setOnClickListener(this);
-
-        et = (EditText) findViewById(R.id.et6);
-        bt = (Button) findViewById(R.id.button);
-        bt.setOnClickListener(this);
-    }
+}
 
     @Override
     public void onClick(View v) {
