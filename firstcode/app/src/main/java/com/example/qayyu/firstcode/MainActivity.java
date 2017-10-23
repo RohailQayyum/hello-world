@@ -20,6 +20,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et = (EditText) findViewById(R.id.et1);
         bt = (Button) findViewById(R.id.button);
         bt.setOnClickListener(this);
+
+        et = (EditText) findViewById(R.id.et2);
+        bt = (Button) findViewById(R.id.button);
+        bt.setOnClickListener(this);
+
+        et = (EditText) findViewById(R.id.et3);
+        bt = (Button) findViewById(R.id.button);
+        bt.setOnClickListener(this);
+
+        et = (EditText) findViewById(R.id.et4);
+        bt = (Button) findViewById(R.id.button);
+        bt.setOnClickListener(this);
+
+        et = (EditText) findViewById(R.id.et5);
+        bt = (Button) findViewById(R.id.button);
+        bt.setOnClickListener(this);
+
+        et = (EditText) findViewById(R.id.et6);
+        bt = (Button) findViewById(R.id.button);
+        bt.setOnClickListener(this);
     }
 
     @Override
