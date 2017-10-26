@@ -27,6 +27,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt.setOnClickListener(this);
 
 
+//        et = (EditText) findViewById(R.id.First_Name_layoutpp);
+//        et = (EditText) findViewById(R.id.Last_Name_layoutpp);
+//        et = (EditText) findViewById(R.id.Father_Name_layoutpp);
+//        et = (EditText) findViewById(R.id.Enter_Email_layoutpp);
+//        et = (EditText) findViewById(R.id.Enter_Password_layoutpp);
+//        et = (EditText) findViewById(R.id.Enter_Cell_Number_layoutpp);
+//        bt = (Button) findViewById(R.id.button_layoutpp);
+//        bt.setOnClickListener(this);
+
+
 }
 
     @Override
