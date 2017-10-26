@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et = (EditText) findViewById(R.id.Enter_Email_layoutpp);
         et = (EditText) findViewById(R.id.Enter_Password_layoutpp);
         et = (EditText) findViewById(R.id.Enter_Cell_Number_layoutpp);
-        bt = (Button) findViewById(R.id.button);
+        bt = (Button) findViewById(R.id.button_layoutpp);
         bt.setOnClickListener(this);
 
 
